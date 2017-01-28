@@ -1,0 +1,25 @@
+*{margin:0;padding:0;}
+a{color:white;text-decoration:none;}
+
+/**** Formulaire ****/
+.avatar{width:65px;margin-left:0px;}
+.form input:focus:valid{border :3px solid green;}
+.form input:focus:invalid{border :3px solid red;}
+.form{text-align:center;margin-top:75px;}
+.form label{display:inline-block;width:100px;}
+.form input[type="text"],
+.form input[type="submit"],
+.form input[type="button"],
+.form input[type="reset"],
+.form input[type="email"],
+.form input[type="password"],
+.form select {
+	display:inline-block;
+	width:175px;
+	height:20px;
+	line-height:20px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	transition:0.3s;
+	margin:5px; 
+	}
